@@ -1,0 +1,75 @@
+/*output for B2.l
+[admin@localhost SKA-A09]$ lex B2.l
+[admin@localhost SKA-A09]$ gcc lex.yy.c
+[admin@localhost SKA-A09]$ ./a.out
+
+	Keyword	: 	package
+	Punctuation Chars	: 	 
+	Identifiers	: 	spos
+	Terminator	: 	;
+
+
+	Keyword	: 	import
+	Punctuation Chars	: 	 
+	Keyword	: 	java
+	Punctuation Chars	: 	.
+	Identifiers	: 	io
+	Punctuation Chars	: 	.
+	Special charst	: 	*
+	Terminator	: 	;
+
+	Keyword	: 	import
+	Punctuation Chars	: 	 
+	Keyword	: 	java
+	Punctuation Chars	: 	.
+	Identifiers	: 	util
+	Punctuation Chars	: 	.
+	Special charst	: 	*
+	Terminator	: 	;
+
+	Keyword	: 	class
+	Punctuation Chars	: 	 
+	Identifiers	: 	spos
+
+	Brackets	: 	{
+
+	Punctuation Chars	: 	 
+	Keyword	: 	public
+	Punctuation Chars	: 	 
+	Keyword	: 	static
+	Punctuation Chars	: 	 
+	Keyword	: 	void
+	Punctuation Chars	: 	 
+	Keyword	: 	main
+	Brackets	: 	(
+	Keyword	: 	String
+	Punctuation Chars	: 	 
+	Keyword	: 	args
+	Brackets	: 	[
+	Brackets	: 	]
+	Brackets	: 	)
+
+	Punctuation Chars	: 	 
+	Brackets	: 	{
+
+	Punctuation Chars	: 	 
+	Keyword	: 	String
+	Punctuation Chars	: 	 
+	Identifiers	: 	REG
+	Brackets	: 	[
+	Brackets	: 	]
+	Terminator	: 	;
+
+	Punctuation Chars	: 	 
+	Keyword	: 	if
+	Brackets	: 	(
+	Identifiers	: 	a
+	Binary Operators	: 	<
+	Identifiers	: 	b
+	Brackets	: 	)
+
+	Punctuation Chars	: 	 
+	Brackets	: 	}
+
+	Brackets	: 	}
+*/

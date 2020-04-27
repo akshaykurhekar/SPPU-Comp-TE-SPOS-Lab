@@ -1,0 +1,41 @@
+/*
+OUTPUT:
+Enter number of pages in page stream:12
+Enter page stream:2 3 2 1 5 2 4 5 3 2 5 2
+*************Menu*************
+1.LRU
+2.Optimal
+3.Exit
+Enter your Choice:1
+Enter frame size:3
+Page	frame contents
+	 99 99 99
+2	 2 99 99
+3	 2 3 99
+2	 2 3 99
+1	 2 3 1
+5	 2 5 1
+2	 2 5 1
+4	 2 5 4
+5	 2 5 4
+3	 3 5 4
+2	 3 5 2
+5	 3 5 2
+2	 3 5 2
+Total number of page faults by LRU Technique:7
+*************Menu*************
+1.LRU
+2.Optimal
+3.Exit
+Enter your Choice:2
+Enter frame size:3
+Page	frame contents
+	 99 99 99
+0	 2 99 99
+Total number of page faults by Optimal Page Replacement Technique:12
+*************Menu*************
+1.LRU
+2.Optimal
+3.Exit
+Enter your Choice:3
+*/

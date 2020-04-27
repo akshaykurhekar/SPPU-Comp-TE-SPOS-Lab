@@ -1,0 +1,22 @@
+/*
+OUTPUT:
+
+Enter no of processes & no of resources:3 3
+Enter Claim matrix:
+1 1 2 3 2 2 3 2 1
+Claim matrix: 
+ 1 1 2 
+ 3 2 2 
+ 3 2 1
+Enter Allocation matrix:
+1 0 1 1 1 2 0 2 1
+
+Allocation matrix: 
+ 1 0 1 
+ 1 1 2 
+ 0 2 1
+Enter resource vector:1 2 3
+Resource Vector: 1 2 3
+Available resources at beggining: 1 2 3
+Available resources after allocation: -1 -1 -1
+*/

@@ -1,0 +1,13 @@
+/*
+output for B3.l
+[admin@localhost SKA-A09]$ lex B3.l
+[admin@localhost SKA-A09]$ gcc lex.yy.c
+[admin@localhost SKA-A09]$ ./a.out
+This file contains...
+	89 lines
+	378 words
+	887 characters
+	7 digits
+	0 special characters
+	894 characters[admin@localhost SKA-A09]
+*/

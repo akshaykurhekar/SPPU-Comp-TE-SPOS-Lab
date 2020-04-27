@@ -1,0 +1,21 @@
+/*
+[admin@localhost ~]$ cd SKA-A09
+[admin@localhost SKA-A09]$ lex B4.l
+[admin@localhost SKA-A09]$ yacc -d B4.y
+[admin@localhost SKA-A09]$ gcc lex.yy.c y.tab.c
+[admin@localhost SKA-A09]$ ./a.out
+
+Enter a statement:int a;
+ Declaration is valid[admin@localhost SKA-A09]$ ./a.out
+
+Enter a statement:int a
+syntax error
+ [admin@localhost SKA-A09]$ ./a.out
+
+Enter a statement:int a,b;
+ Declaration is valid[admin@localhost SKA-A09]$ ./a.out
+
+Enter a statement:int ;  
+syntax error
+ [admin@localhost SKA-A09]$ 
+*/
